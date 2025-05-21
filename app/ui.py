@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 model = joblib.load('model/diabetes_model.pkl')
 scaler = joblib.load('model/scaler.pkl')
 
-st.set_page_config(page_title="Diabetes Prediction App", layout="centered")
-st.title("🩺 Diabetes Prediction App")
+st.set_page_config(page_title="Diabetes Prediction", layout="centered")
+st.title("🩺 Diabetes Prediction")
 st.markdown("Enter the patient's health data to check diabetes risk.")
 
 # Input validation
